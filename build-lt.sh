@@ -19,7 +19,7 @@ printf "using gcc ;\nusing python : 3.6 : /usr/bin/python3 : /usr/include/python
 > ${BOOST_BUILD_PATH}/user-config.jam
 
 cd /root
-git clone 'https://github.com/kfur/libtorrent'
+git clone 'https://github.com/kirodewal/torrentitbot'
 cd /root/libtorrent/bindings/python
 CXXFLAGS="-Ofast -DNDEBUG -DTORRENT_DISABLE_GEO_IP -DTORRENT_DISABLE_RESOLVE_COUNTRIES -DTORRENT_DISABLE_INVARIANT_CHECKS -DTORRENT_PRODUCTION_ASSERTS=1" \
 LDFLAGS="-s" \
