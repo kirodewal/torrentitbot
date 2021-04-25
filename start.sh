@@ -1,4 +1,4 @@
 #!/bin/bash
 
-./main.py
+./src/main.py
 
